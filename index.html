@@ -13,9 +13,7 @@
 			</o:OfficeDocumentSettings>
 		</xml><![endif]-->
 		<title>Pair [Month] Newsletter</title>
-		
-		<link href="https://fonts.googleapis.com/css?family=Lato:700" rel="stylesheet">
-		
+				
 		<style>
 			
 			/* Some resets and issue fixes */
@@ -28,7 +26,7 @@
 			.ExternalClass * {line-height: 115%;}           
 			/* End reset */
 			
-			@media only screen and (max-width: 500px)  {
+			@media only screen and (max-width: 642px)  {
 				/* Display block allows us to stack elements */                      
 				*[class="mobile-column"] {display: block;} 
 				 /* Some more stacking elements */
@@ -48,19 +46,22 @@
 				/* 100percent width section with 20px padding top & bottom */
 				*[class="100padtopbottom"] {width:100% !important; padding:20px 0px 20px 0px;} 
 				
+				@import url("https://use.typekit.net/qhg5cma.css");
+                
+                @font-face {
+    				font-family: 'BasisGrotesquePro';
+					src:url("https://github.com/mtran-two/pail-mailer/blob/master/assets/fonts/BasisGrotesquePro-Bold.otf");
+				}
+                
+				
 				@font-face {
-    				font-family: 'BasisGrotesquePro.otf';
-					src:url("assets/fonts/BasisGrotesquePro-Bold.otf");
+					font-family: 'FoundersGroteskRegular';
+					src:url("https://raw.githubusercontent.com/mtran-two/pail-mailer/blob/master/assets/fonts/FoundersGrotesk-TextRegular.otf");
 				}
 				
 				@font-face {
-					font-family: 'FoundersRegular.otf';
-					src:url("assets/fonts/FoundersGrotesk-TextRegular.otf");
-				}
-				
-				@font-face {
-					font-family: 'FoundersGroteskMedium.otf';
-					src:url("assets/fonts/FoundersGrotesk-TextMedium.otf");
+					font-family: 'FoundersGroteskMedium';
+					src:url("https://github.com/mtran-two/pail-mailer/blob/master/assets/fontsFoundersGrotesk-TextMedium.otf");
 				}
 				
 			}
@@ -69,129 +70,182 @@
 
 	<body style="margin:0;padding:0">
 
-		<div style="display:none;font-size:1px;color:#ffffff;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;">Pair [Month] Newsletter</div>
+		<div style="display:none;font-size:1px;color:#ffffff;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;">Pair December Newsletter</div>
 		
-		<table border="0" cellpadding="0" cellspacing="0" height="100%" width="500" class="100p" id="bodyTable" align="center">
+		<table border="0" cellpadding="0" cellspacing="0" height="100%" width="700" class="100p" id="bodyTable" align="center">
 			<tr>
 				<td align="center" valign="top">
-					<table border="0" cellpadding="0" cellspacing="0" width="500" id="emailContainer">
-						<tr>
-							<td align="center" valign="top">
-								<table border="0" cellpadding="20" cellspacing="0" width="100%" id="emailHeader">
-									<tr>
-										<td align="center" valign="top">
-											<div style="margin: 0 auto;">
+					<table border="0" cellpadding="0" cellspacing="0" width="700" id="emailContainer">
+                        <!--EMAIL HEADER ROW-->
+                        <tr>
+                            <td align="center" valign="top">
+                                <table border="0" cellpadding="20" cellspacing="0" width="100%" id="emailHeader">
+                                    <tr>
+                                       <td align="center" valign="top">
+                                            
 												<!--LOGO-->
-											  <img src="assets/img/Pair_logo.png" border="0" style="display:flex; width: 200px; justify-content: center; align-content: center;" />
-												<p style="margin: 0; padding: 0; font-family: 'BasisGrotesquePro', sans-serif; font-size: 30px;"><b>NEWS</b></p>
-											</div>
-										</td>
-									</tr>
-								</table>
-							</td>
-						</tr>
-						<tr>
-							<td align="center" valign="top">
-								<table border="0" cellpadding="20" cellspacing="0" width="100%" id="emailBody">
-									<tr>
-										<td align="center" valign="top">
-											<p style="margin: 0 0 50px 0; padding: 0; font-family: 'FoundersRegular', sans-serif; font-size: 25px;">Pair brings to you a monthly round-up of <br> highlights about what we are up to.</p>
-											<br>
-											<img src="assets/img/Bento_Various.png" border="0" style="display:flex; justify-content: center; align-content: center; width: 642px;" />
+											  <a href="https://www.madebypair.com/home"><img src="https://github.com/mtran-two/pail-mailer/raw/master/assets/img/Pair_logo.png" border="0" width="200" height="72" style="display:flex; height: auto; width: 100%; max-width: 200px; max-height: 72px; justify-content: center; align-content: center;" ></a>
+												<p style="margin: 0; padding: 0 0 50px 0; font-family: 'BasisGrotesquePro', sans-serif; font-size: 30px;"><b>NEWS</b></p>
 											
-											<div style="background-color: #f3f3f4;">
-												<p style="margin: 50px 0 0 0; padding: 50px 0 0 0; font-family: 'BasisGrotesquePro', sans-serif; font-size: 34px;"><b>Pair at Work</b></p>
+                                        </td>
+                                    </tr>
+                                </table> 
+                            </td>
+                        </tr>
+                        <!--EMAIL BODY ROW-->
+                        <tr>
+                            <td align="center" valign="top">
+								<table border="0" cellpadding="20" cellspacing="0" width="100%" id="emailBody" style="table-layout: fixed";>
+                                    <!--FIRST ROW-->
+                                    <tr>
+                                        <td colspan="3" align="center" valign="top">
+                                            <p style="margin: 0 0 50px 0; padding: 0; font-family: 'brandon-grotesque', sans-serif; font-weight: 300; font-style: normal; font-size: 25px;">Pair brings to you a monthly round-up of <br> highlights about what we are up to.</p>
+                                            <br>
+                                            
+                                        </td>
+                                    </tr>
+                                    <!--SECOND ROW-->
+                                    <tr>
+                                        <td colspan="3" align="center" valign="top" style="padding: 0 0 50px 0; background-color: #f3f3f4;"  >
+                                             
+                                            <a href="https://www.madebypair.com/home"><img src="https://github.com/mtran-two/pail-mailer/raw/master/assets/img/Bento_Various.png" border="0" width="700" height="394" style="display:flex; justify-content: center; align-content: center; height=auto; width: 100%; max-height: 394px; max-width: 700px; padding: 0" /></a>
+                                                <br>
+                                                <br>
+                                                <br>
+                                                    <p style="margin: 75px 0 0 0; padding: 0; font-family: 'BasisGrotesquePro', sans-serif; font-size: 34px;"><b>Pair at Work</b></p>
+                                                    <br>
+                                                    <p style="margin: 0; padding: 0 0 50px 0; font-family: 'FoundersGroteskRegular', sans-serif; font-size: 25px;">Three projects, one product. Check out our <br> recently completed projects featuring the <br> Hashi table with Bento.</p>
+                                                <br>
+                                                <br>
+                                                <br>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <!--PROJECT IMAGES ROW-->
+                                        <td align="center" style= "background-color: #f3f3f4; padding: 0 10px 10px 20px;">
+                                            <img src="https://github.com/mtran-two/pail-mailer/raw/master/assets/img/hashi_4.jpg" border="0" width="207" height="207" style="padding: 2px 2px 0 0; height: auto; max-height: 207px; width: 207px; max-width: 207px; margin:0" /> 
+                                        </td>
+                                        <td align="center" style= "background-color: #f3f3f4; padding: 0 0 10px 0;">
+                                            <img src="https://github.com/mtran-two/pail-mailer/raw/master/assets/img/slack_1.jpg" border="0" width="207" height="207" style="padding: 2px 2px 0 0; height: auto; max-height: 207px; width: 207px; max-width: 207px; margin:0" />
+                                        </td>
+                                        <td align="center" style= "background-color: #f3f3f4; padding: 0 20px 10px 10px;">
+                                            <img src="https://github.com/mtran-two/pail-mailer/raw/master/assets/img/sigfig_1.jpg" border="0" width="207" height="207" style="padding: 2px 0 0 0; height: auto; max-height: 207px; width: 207px; max-width: 207px; margin:0" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left" valign="top" width="200" style="padding:20px; background-color: #f3f3f4;">
+                                            <!--TWITCH-->
+                                            
+								                <p style="margin: 0; padding: 10px 0 0 10px; font-family: 'BasisGrotesquePro', sans-serif; font-size: 16px; text-align: left;"><b>Twitch HQ</b></p>
+												<br> 
+												<p style="margin: 0; padding: 10px; font-family: 'FoundersGroteskRegular', sans-serif; font-size: 14px; text-align: left;"><b>60 conference tables</b> <br> <br> <br> Twitch focused on design, <br>
+												authenticity and function. <br> Hashi was able to meet that need. It’s unique cable management system assured that the function and User Experience were planned for <br> and executed. <br> <br> Designed by Iwamoto Scott</p>
+								            
+                                        </td>
+                                        <td align="left" valign="top" width="200" style="padding:20px 5px 20px 5px; background-color: #f3f3f4;">
+                                            <!--SLACK-->
+                                            
+								                <p style="margin: 0; padding: 10px 0 0 10px; font-family: 'BasisGrotesquePro', sans-serif; font-size: 16px; text-align:left"><b>Slack HQ</b></p>
 												<br>
-												<p style="margin: 0; padding: 0 0 50px 0; font-family: 'FoundersGroteskRegular', sans-serif; font-size: 25px;">Three projects, one product. Check out our <br> recently completed projects featuring the <br> Hashi table with Bento.</p>
-												
-												<div style="display:flex;">
-													<div style="flex:33.33%;">
-														<img src="assets/img/twitch_1.jpg" border="0" style="padding: 5px; width: 205px;" />
-													</div>
-													<div style="flex: 33.33%;">
-														<img src="assets/img/slack.jpg" border="0" style="padding: 5px; width: 205px;" />	
-													</div>
-													<div style="flex: 33.33%;">
-														<img src="assets/img/zoox.jpg" border="0" style="padding: 5px; width: 205px;" />
-													</div>		
-												</div>
-												<div style= "display: flex; text-align: left;">
-													<div style= "flex: 33.33%;"> 
-														<p style="margin: 0; padding: 10px 0 0 10px; font-family: 'BasisGrotesquePro', sans-serif; font-size: 16px;"><b>Twitch HQ</b></p>
-														<br> 
-														<p style="margin: 0; padding: 10px; font-family: 'FoundersGroteskRegular', sans-serif; font-size: 14px; text-align: left;"><b>60 conference tables</b> <br> <br> <br> Twitch focused on design, <br>
-														authenticity and function. Hashi was able to meet that need. It’s unique cable management system assured that the function and User Experience were planned for and executed. <br> <br> Designed by Iwamoto Scott</p>
-													</div>
-													<div style= "flex: 33.33%;"> 
-														<p style="margin: 0; padding: 10px 0 0 10px; font-family: 'BasisGrotesquePro', sans-serif; font-size: 16px;"><b>Slack HQ</b></p>
-														<br>
-														<p style="margin: 0; padding: 10px; font-family: 'FoundersGroteskRegular', sans-serif; font-size: 14px; text-align: left;"><b>80 conference tables</b> <br> <br> <br> Slack’s new HQ in San Franciso was designed to keep consistent functionality but varied aesthetic. The same Hashi conference tables were installed in different finishes on each floor. <br> <br> Designed by O+A</p>
-													</div>
-													<div style= "flex: 33.33%;"> 
-														<p style="margin: 0; padding: 10px 10px 0 10px; font-family: 'BasisGrotesquePro', sans-serif; font-size: 16px;"><b>Zoox HQ</b></p>
-														<br>
-														<p style="margin: 0; padding: 10px; font-family: 'FoundersGroteskRegular', sans-serif; font-size: 14px; text-align: left;"><b>500 workstations + <br> 30 conference tables</b> <br> <br> To accommodate it’s growing team Zoox’s HQ in Foster City, installed 500 workstations with the Balance Beam along with 30 Hashi tables for meetings. <br> <br> Designed by Rapt Studio</p>
-													</div>
-												</div>
-												
-												<img src="assets/img/Bento_Olive.png" border="0" style="display:flex; justify-content: center; align-content: center; width: 642px; margin: 50px 0 50px 0" />
-												
-												<div style="text-align: center;">
-												  <p style="margin: 0; padding: 10px 0 10px 0; font-family: 'BasisGrotesquePro', sans-serif; font-size: 34px;"><b>Meet Bento</b></p>
-													<br>
-												  <p style="margin: 0; padding: 10px 0 10px 0; font-family: 'FoundersGroteskRegular', sans-serif; font-size: 25px;">Bentos can be sold on their own and can <br />
-												    be dropped into any table. We co-developed <br />
-											      this solution with Byrne Electrical to be <br />
-												    exclusively sold through Pair. Available in <br />
-												    white and black on quick-ship for $350.</p>
-													<br>
-												  <p style="margin: 0; padding: 10px 0 50px 0; font-family: 'FoundersGroteskMedium', sans-serif; font-size: 14px;"><b>Want to know more about Bentos? Email sales@madebypair.com</b></p>
-												</div>
-											</div>
-											<!--Showroom Pairings-->
-											<div style= "margin-top: 50px; background-color: #f3f3f4;">
-												<div style="text-align: center">
-													<p style="margin: 0; padding: 50px 0 50px 0; font-family: 'BasisGrotesquePro', sans-serif; font-size: 25px;"><b>Showroom Pair(ings)</b></p>
-													<p style="margin: 0; padding: 0 0 10px 0; font-family: 'FoundersGroteskRegular', sans-serif; font-size: 25px;">San Francisco</p>
-													<p style="margin: 0; padding: 10px 0 10px 0; font-family: 'FoundersGroteskRegular', sans-serif; font-size: 14px;">Pair can be seen in San Francisco. <br> <b>** Enclose rendering of space</b></p>
-													<p style="margin: 0; padding-bottom: 50px; font-family: 'FoundersGroteskMedium', sans-serif; font-size: 16px;">Email kristin@madebypair.com for a tour.</p>
-													<div style="margin: 0 auto; width: 33.33%;">
-													  <hr style="background-color: #4D4D4D; color: #4D4D4D; height: 0.1px;">
-													</div>
-												  <p style="margin: 0; padding: 50px 0 10px 0; font-family: 'FoundersGroteskRegular', sans-serif; font-size: 25px;">Seattle</p>
-													<p style="margin: 0; padding: 10px 0 50px 0; font-family: 'FoundersGroteskRegular', sans-serif; font-size: 14px;">Very happy to share we just had a pop-up hosted by Objekts, <br />
-												    a dealer in Seattle. Pair will have a permanent installation in their <br />
-												    future 
-												    3000 sq. ft. 
-												    showroom in early 2019</p>
-													<div style="margin: 0 auto; width: 33.33%;">
-														<hr style="background-color: #4D4D4D; color: #4D4D4D; height: 0.1px;">
-													</div>
-													<p style="margin: 0; padding: 50px 0 10px 0; font-family: 'FoundersGroteskRegular', sans-serif; font-size: 25px;">Los Angeles</p>
-													<p style="margin: 0; padding: 10px 0 50px 0; font-family: 'FoundersGroteskRegular', sans-serif; font-size: 14px;">Not leaving LA behind, Pair will be showcased in partnership with the Design Public Group <br> featuring Pair Systems furniture.</p>
-												</div>
-											</div>
-										</td>
-									</tr>
-								</table>
-							</td>
-						</tr>
-						<tr>
-							<td align="center" valign="top">
-								<table border="0" cellpadding="20" cellspacing="0" width="100%" id="emailFooter">
-									<tr>
-										<td align="center" valign="top">
-											<div style="text-align: center;">
+												<p style="margin: 0; padding: 10px; font-family: 'FoundersGroteskRegular', sans-serif; font-size: 14px; text-align: left;"><b>80 conference tables</b> <br> <br> <br> Slack’s new HQ in San <br> Francisco was designed to <br> keep consistent functionality <br> but varied aesthetic. The same <br> Hashi conference tables were installed in different finishes on each floor. <br> <br> Designed by O+A</p>
+								            
+                                        </td>
+                                        <td align="left" valign="top" width="200" style="padding:20px 15px 20px 15px; background-color: #f3f3f4;">
+                                            <!--ZOOX-->
+                                            
+												<p style="margin: 0; padding: 10px 10px 0 10px; font-family: 'BasisGrotesquePro', sans-serif; font-size: 16px; text-align:left"><b>Zoox HQ</b></p>
+												<br>
+												<p style="margin: 0; padding: 10px; font-family: 'FoundersGroteskRegular', sans-serif; font-size: 14px; text-align: left;"><b>500 workstations + <br> 30 conference tables</b> <br> <br> To accommodate it’s growing team Zoox’s HQ in Foster City, installed 500 workstations with the Balance Beam along with 30 Hashi tables for meetings. <br> <br> Designed by Rapt Studio</p>
+								            
+                                        </td>
+                                    </tr>
+                                    <!--PRODUCT IMAGE-->
+                                    <tr>
+                                        <td colspan="3" style= "background-color: #f3f3f4; padding: 50px 0 0 0;" align="center">
+                                            <a href="https://www.madebypair.com/home"><img src="https://github.com/mtran-two/pail-mailer/raw/master/assets/img/Bento_Olive.png" border="0" width="700" height="399" style="display:flex; height: auto; max-height: 399px; width: 100%; max-width: 700px; justify-content: center; align-content: center;" /></a>
+                                        </td>
+                                    </tr>
+                                    <!--PRODUCT DESCRIPTION-->
+                                    <tr>
+                                        <td colspan="3" style= "background-color: #f3f3f4; margin-bottom: 50px; text-align: center; padding: 30px 0 80px 0">
+                                            
+                                            <a href="https://www.madebypair.com/home" style="text-decoration: none; color: black;"><p style="margin: 0; padding: 10px 0 10px 0; font-family: 'BasisGrotesquePro', sans-serif; font-size: 34px;"><b>Meet Bento</b></p></a>
+												<br>
+												<p style="margin: 0; padding: 10px 0 10px 0; font-family: 'FoundersGroteskRegular', sans-serif; font-size: 25px;">Bentos can be sold on their own and can <br />be dropped into any table. We co-developed <br />this solution with Byrne Electrical to be <br />exclusively sold through Pair. Available in <br />white and black on quick-ship for $350.</p>
+												<br>
+												<p style="margin: 0; padding: 10px 0 50px 0; font-family: 'FoundersGroteskMedium', sans-serif; font-size: 14px;"><b>Want to know more about Bentos? Email sales@madebypair.com</b></p>
+								            
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="padding: 25px"></td>
+                                    </tr>
+                                    <!--SHOWROOM PAIR(INGS) SECTION-->
+                                    <tr>
+                                        <td colspan="3" style="padding: 50px 0 50px 0; text-align: center; margin-top: 50px; background-color: #f3f3f4;">
+                                               
+								                <p style="margin: 0; padding: 50px 0 50px 0; font-family: 'BasisGrotesquePro', sans-serif; font-size: 34px;"><b>Showroom Pair(ings)</b></p>
+                                                <br>
+                                                <br>
+												<p style="margin: 0; padding: 0 0 10px 0; font-family: 'FoundersGroteskRegular', sans-serif; font-size: 25px;">San Francisco</p>
+                                                <br>
+												<p style="margin: 0; padding: 10px 0 10px 0; font-family: 'FoundersGroteskRegular', sans-serif; font-size: 14px;">Pair can be seen in San Francisco.</p>
+												<p style="margin: 0; padding-bottom: 50px; font-family: 'FoundersGroteskMedium', sans-serif; font-size: 14px;">Email kristin@madebypair.com for a tour.</p>
+                                                <br>
+                                                <br>
+                                                <!-- LINE -->
+                                                
+                                                <table width="200" cellpadding="0" cellspacing="0" border="0" align="center">
+                                                <tr>
+                                                <td height="1" style="border-top:1px solid #4D4D4D; font-size:1px; height:1px; line-height:1px">&nbsp;</td>
+                                                </tr>
+                                                </table>
+                                                
+                                                <br>
+                                                <br>
+                                                <p style="margin: 0; padding: 0px 0 10px 0; font-family: 'FoundersGroteskRegular', sans-serif; font-size: 25px;">Seattle</p>
+                                                <br>
+                                                <p style="margin: 0; padding: 10px 0 50px 0; font-family: 'FoundersGroteskRegular', sans-serif; font-size: 14px;">Very happy to share we just had a pop-up hosted by Objekts, <br />a dealer in Seattle. Pair will have a permanent installation in their <br />future 3000 sq. ft. showroom in early 2019</p>
+                                                <br>
+                                                <br>
+                                                <!-- LINE -->
+                                                
+                                                <table width="200" cellpadding="0" cellspacing="0" border="0" align="center">
+                                                <tr>
+                                                <td height="1" style="border-top:1px solid #4D4D4D; font-size:1px; height:1px; line-height:1px">&nbsp;</td>
+                                                </tr>
+                                                </table>
+                                                
+                                                <br>
+                                                <br>
+                                                <p style="margin: 0; padding: 0px 0 10px 0; font-family: 'FoundersGroteskRegular', sans-serif; font-size: 25px;">Los Angeles</p>
+                                                <br>
+                                                <p style="margin: 0; padding: 10px 0 50px 0; font-family: 'FoundersGroteskRegular', sans-serif; font-size: 14px;">Not leaving LA behind, Pair will be showcased in partnership with <br> the Design Public Group featuring Pair Systems furniture.</p>
+                                                <br>
+                                                <br>
+                                                <br>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                        <!--FOOTER SECTION-->
+                        <tr>
+                            <td align="center" valign="top">
+                                <table border="0" cellpadding="20" cellspacing="0" width="100%" id="emailFooter">
+                                    <tr>
+										<td align="center" valign="top" style="text-align: center; padding-top: 50px">
+											
 												<p style="color: #ED1E3E; margin: 0; padding: 50px 0 10px 0; font-family: 'BasisGrotesquePro', sans-serif; font-size: 30px;"><b>Pair</b></p>
-												<p style="margin: 0; padding: 0 0 50px 0; font-family: 'FoundersGrotesqueRegular', sans-serif; font-size: 20px;"><u>Unsubscribe</u></p>
-											</div>
+												<!--<p style="margin: 0; padding: 0 0 50px 0; font-family: 'FoundersGrotesqueRegular', sans-serif; font-size: 20px;"><u>Unsubscribe</u></p>-->
+											
 										</td>
 									</tr>
-								</table>
-							</td>
-						</tr>
-					</table>
-				</td>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+				</td>	
 			</tr>
 		</table>
 	</body>
