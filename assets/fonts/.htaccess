@@ -1,4 +1,4 @@
-SetEnvIf Referer https://github.com/mtran-two localreferer
+SetEnvIf Referer https://github.com/mtran-two/pail-mailer localreferer
 
 <FilesMatch \.(eot|woff|woff2|ttf|svg)$>
 Order deny,allow
@@ -14,10 +14,3 @@ Header set Expires "Wed, 11 Jan 1984 05:00:00 GMT"
 </ifModule>
 </FilesMatch>
 
-<IfModule mod_headers.c>
-  #allow corrs access from subdomains
-
-  SetEnvIf Origin ^(https?://(?:.+\.)?example\.com(?::\d{1,5})?)$   CORS_ALLOW_ORIGIN=$1
-  Header append Access-Control-Allow-Origin  %{CORS_ALLOW_ORIGIN}e   env=CORS_ALLOW_ORIGIN
-  Header merge  Vary "Origin"
-</IfModule>
