@@ -1,4 +1,4 @@
-SetEnvIf Referer https://github.com/mtran-two/pail-mailer/blob/master/assets/fonts localreferer
+SetEnvIf Referer https://github.com/mtran-two localreferer
 
 <FilesMatch \.(eot|woff|woff2|ttf|svg)$>
 Order deny,allow
